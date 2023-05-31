@@ -1,0 +1,39 @@
+<%- include('./partials/header.ejs') %>
+
+<div class="container-fluid bg-dark">
+    <div class="row">
+        <div class="col-sm-2">
+            <%- include('./partials/sidebar.ejs', {page_name: 'Home'}) %>
+        </div>
+        <div
+            class="col-sm-10">
+            <div class="text-center">
+                <img src="/images/image1.jfif" alt = "" class="img-thumbnail" width="250px" height="150px"  width="250px" height="150px" >
+
+            </div>
+
+            <div class="mt-5 text-white mx-5 text-justify">
+                <h1 class="fw-bold st-font"> Hello there!</h1>
+                <div class="px-4" style="line-height: 2rem">
+                    <p style="text-indent: 100px;">I am <b class="text-warning">Saurav Kumar Yadav</b>  from Sahibganj, Jharkhand. I'm thrilled to share that I have 6 months of experience as a backend developer, specifically in NodeJs. 
+                        I have completed MCA from College of Engineering Guindy, and BCA from Sahibganj College, Sahibganj.
+                        
+                        I have a solid skill set that encompasses NodeJs, Express, MongoDb, SQL, Core Java, Advanced Java and JavaScript.
+                        
+                        In my free time, I enjoy my hobbies, which include Game Desigining, Music and so on.</p>
+                         <p> With my skill set I have developed some projects that include Travel Application Android based Application, Junior Maths for kids, Email Spam Detector and so on.
+                         </p>
+                </div>
+
+              </div>
+            <!-- Main Content -->
+            <div class="text-center">
+                <a href="/contact" class="btn btn-outline-warning mx-5 my-3">Hire ME </a>
+                <a href="/contact" class="btn btn-outline-info">Contact ME </a>
+
+              </div>
+        </div>
+    </div>
+</div>
+
+<%- include('./partials/footer.ejs') %>
